@@ -6,7 +6,7 @@ const { email, message } = feedBackForm;
 const formData = JSON.parse(localStorage.getItem(STORAGE_KEY));
 if (formData) {
     email.value = formData.email;
-    message.value = formData.maessage;
+    message.value = formData.message;
 }
 
 feedBackForm.addEventListener('submit', e => {

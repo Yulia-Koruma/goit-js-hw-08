@@ -13,3 +13,4 @@ const setTime = startPlay ? startPlay: 0;
 player.setCurrentTime(setTime);
 
 player.on('timesaved', throttle(onPlay, 1000));
+
